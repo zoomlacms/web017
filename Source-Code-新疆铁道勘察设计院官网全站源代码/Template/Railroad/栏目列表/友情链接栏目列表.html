@@ -1,0 +1,50 @@
+﻿{ZL.Source id="节点栏目信息数据源"/}
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>{SField sid="节点栏目信息数据源" FD="NodeName" page="0"/}_{$SiteName/}</title>
+<meta name="Keywords" content="{SField sid="节点栏目信息数据源" FD="Meta_Keywords" page="0"/}" />
+<meta name="description" content="{SField sid="节点栏目信息数据源" FD="Meta_Description" page="0"/}" />
+{ZL:Boot()/}
+<link href="{$CssDir/}global.css" rel="stylesheet" type="text/css" />
+<link href="{$CssDir/}fix.css" rel="stylesheet" type="text/css" />
+<script src="/js/scrolltopcontrol.js" type="text/javascript"></script>
+<script src="/js/jquery.lazyload.js" type="text/javascript"></script>
+<style> .navbar-nav>li.munes{SField sid="节点栏目信息数据源" FD="NodeID" page="0"/}>a,.navbar-nav>li.munes{SField sid="节点栏目信息数据源" FD="ParentID" page="0"/}>a{color:#fff; }</style>
+ </head>
+<body>
+{ZL.Label id="全站头部"/} 
+<div class="container">
+<div class="row">
+<div class="col-lg-12 col-md-12 col-xs-12 padding5">
+<img src="{ZL.Label id="输出指定节点栏目图片" NodeID="{SField sid="节点栏目信息数据源" FD="NodeID" page="0"/}" /}" class="img-responsive" alt="" />
+</div>
+</div> 
+</div> 
+
+<div class="container Margintop10">
+<div class="row">
+<div class="panel panel-default">
+<div class="panel-heading">
+<h4 class="panel-title">
+友情链接
+</h4>
+</div>
+<div  class="panel-collapse">
+<div class="panel-body maps minheight500">
+ {ZL.Label id="友情链接列表_分页" ShowNum="10" NodeID="{SField sid="节点栏目信息数据源" FD="NodeID" page="0"/}" /} 
+ <div class="clearfix"></div>  
+</div>
+</div>
+</div>
+
+
+
+</div>
+</div>
+
+  {ZL.Label id="全站底部"/}
+
+</body>
+</html>

@@ -1,0 +1,34 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Table>
+    <LabelID>700</LabelID>
+    <LabelName>输出制定节点文章缩略图带简介</LabelName>
+    <LabelType>2</LabelType>
+    <LabelCate>全站通用</LabelCate>
+    <LabelDesc />
+    <LabelParam>NodeID,1,1,节点ID|ShowNum,10,1,显示数|Sym,100,1,简介长</LabelParam>
+    <LabelTable>ZL_CommonModel left join ZL_C_Article on ZL_CommonModel.ItemID=ZL_C_Article.ID</LabelTable>
+    <LabelField>ZL_CommonModel.CreateTime,ZL_CommonModel.GeneralID,ZL_CommonModel.NodeID,ZL_CommonModel.Title,ZL_C_Article.pic,ZL_C_Article.synopsis</LabelField>
+    <LabelWhere>(ZL_CommonModel.FirstNodeID=@NodeID or ZL_CommonModel.NodeID=@NodeID) And ZL_CommonModel.Status=99 And ZL_C_Article.pic&lt;&gt;''</LabelWhere>
+    <LabelOrder>ZL_CommonModel.OrderID DESC</LabelOrder>
+    <LabelContent>{Repeate}
+&lt;a href="{ZL:GetInfoUrl({Field="GeneralID"/})/}"&gt;
+&lt;img src="{ZL:GetPicUrl({Field="pic"/})/}" alt="{Field="Title"/}"  class="img-responsive"/&gt;&lt;/a&gt;
+  {ZL:CutText({Field="synopsis"/},@Sym,...)/} &lt;a href="{ZL:GetInfoUrl({Field="GeneralID"/})/}"&gt;详细&lt;/a&gt;
+{/Repeate}</LabelContent>
+    <LabelCount>@ShowNum</LabelCount>
+    <LabelAddUser>0</LabelAddUser>
+    <LabelNodeID>0</LabelNodeID>
+    <Modeltypeinfo>计数判断</Modeltypeinfo>
+    <addroot>循环计算</addroot>
+    <setroot>等于</setroot>
+    <Modelvalue>0</Modelvalue>
+    <Valueroot />
+    <IsOpen>0</IsOpen>
+    <FalseContent />
+    <DataSourceType>Railroad</DataSourceType>
+    <ConnectString>DBO</ConnectString>
+    <ProceName />
+    <ProceParam />
+  </Table>
+</NewDataSet>

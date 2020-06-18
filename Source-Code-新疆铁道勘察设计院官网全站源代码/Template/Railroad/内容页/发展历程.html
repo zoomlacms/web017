@@ -1,0 +1,155 @@
+﻿{ZL.Source id="文章模型数据源标签"/}
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+{ZL:Boot()/}
+<title>{SField sid="文章模型数据源标签" FD="Title" page="0"/}_{$SiteName/}</title>
+<meta name="Keywords" content="{SField sid="文章模型数据源标签" FD="Tagkey" page="0"/}" />
+<meta name="Description" content="{SField sid="文章模型数据源标签" FD="Title" page="0"/}">
+<link href="{$CssDir/}global.css" rel="stylesheet" type="text/css" />
+ <style>.nav_lists  .Gid{SField sid="文章模型数据源标签" FD="GeneralID" page="0"/} a{ color:#000}
+.navbar-nav>li.munes{SField sid="文章模型数据源标签" FD="FirstNodeID" page="0"/}>a{color:#fff; }
+</style>
+ <script src="{$CssDir/}js/jquery.megamenu.js" type="text/javascript"></script>
+    <script type="text/javascript">
+      jQuery(function(){
+        var SelfLocation = window.location.href.split('?');
+        switch (SelfLocation[1]) {
+          case "justify_right":
+            jQuery(".megamenu").megamenu({ 'justify':'right' });
+            break;
+          case "justify_left":
+          default:
+            jQuery(".megamenu").megamenu();
+        }
+      });
+    </script>
+
+</head>
+<body>
+{ZL.Label id="全站头部"/}
+ <div class="container">
+<div class="row">
+<div class="col-lg-12 col-md-12 col-xs-12 padding0">
+ <img src="{ZL.Label id="输出指定节点栏目图片" NodeID="{SField sid="文章模型数据源标签" FD="FirstNodeID" page="0"/}" /}" alt="" class="img-responsive"/>
+</div>
+</div> 
+</div> 
+<div class="container myAnnoun">
+<div class="row">
+<div class="col-lg-3 col-md-3 col-xs-12 myContent_rbox padding0">
+<div class="margins">
+<div class="nav_lists yell">
+<ul>
+<li class="titles"><strong> {ZL.Label id="输出指定ID节点名" NodeID="{SField sid="文章模型数据源标签" FD="NodeID" page="0"/}" /}</strong></li>
+{ZL.Label id="输出指定节点标题_无时间属性" NodeID="{SField sid="文章模型数据源标签" FD="NodeID" page="0"/}"  TitleNum="30" ShowNum="10" /} 
+</ul>    
+</div>
+</div>
+</div>
+
+
+<div class="col-lg-9 col-md-12 col-xs-12 padding5 rowh">
+ <ul class="breadcrumb">
+     <!-- Baidu Button BEGIN -->
+<div id="bdshare" class="bdshare_t bds_tools get-codes-bdshare" style="float:right">
+<span class="bds_more">分享到：</span>
+<a class="bds_qzone"></a>
+<a class="bds_tsina"></a>
+<a class="bds_tqq"></a>
+<a class="bds_renren"></a>
+<a class="bds_t163"></a>
+<a class="shareCount"></a>
+</div>
+<script type="text/javascript" id="bdshare_js" data="type=tools&amp;uid=6550456" ></script>
+<script type="text/javascript" id="bdshell_js"></script>
+<script type="text/javascript">
+document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static/js/shell_v2.js?cdnversion=" + Math.ceil(new Date()/3600000)
+</script>
+<!-- Baidu Button END -->
+<li><a href="/">首页</a><span class="divider"></span></li>
+ <li><a href="{ZL:GetNodeUrl({SField sid="文章模型数据源标签" FD="NodeID" page="0"/})/}">{ZL.Label id="输出指定ID节点名" NodeID="{SField sid="文章模型数据源标签" FD="NodeID" page="0"/}" /}</a><span class="divider"></span></li>
+ <li>正文</a></li>
+ </ul>  
+<div class="panel panel-default">
+ 
+    <div  class="panel-collapse">
+      <div class="panel-body">
+ <div class="licheng minheight500 myContent">
+ <h1 class="y_border">{SField sid="文章模型数据源标签" FD="Title" page="0"/}</h1>
+ <div class="time">
+    <ul class="megamenu">
+      <li>
+        <a href="javascript:void(0)">1955</a>
+        <div style="width:350px;text-align:left">
+<img src="{$CssDir/}images/his1957.jpg" width="200" height="84" /><br /><br />1955年铁一院哈乌总队由哈密向西挺进，拉开了兰新铁路新疆段的建设序幕——铁一院第一勘测设计总队诞生。
+        </div>
+      </li>
+      <li>
+        <a href="javascript:void(0)">1962</a>
+        <div style="width:350px;text-align:left">
+<img src="{$CssDir/}images/his1962.jpg" width="200" height="84" /><br /><br />1962年，一支来自五湖四海的优秀学子组建了局设计事务所，开始了她的漫长发展历程。<br />
+        </div>      </li>
+      <li>
+        <a href="javascript:void(0)">2001</a>
+        <div style="width:350px;text-align:left">
+<img src="{$CssDir/}images/his2001.jpg" width="200" height="84" /><br /><br />2001年，参加了青藏铁路安多至桑利段的勘察和设计，承担了兰新铁路六次大提速线路改造和天山隧道群的勘察设计。<br />
+        </div>
+      </li>
+      <li>
+        <a href="javascript:void(0)">2002</a>
+        <div style="width:350px;text-align:left">
+<img src="{$CssDir/}images/his2002.jpg" width="200" height="84" /><br /><br />2002年铁一院新疆分院改为企业，不再履行事业单位的政府职能，成为市场主体。<br />
+        </div>
+      </li>
+      <li>
+        <a href="javascript:void(0)">2003</a>
+        <div style="width:350px;text-align:left">
+<img src="{$CssDir/}images/his2003.jpg" width="200" height="84" /><br /><br />2003年铁一院由铁道部划归中国铁建，乌鲁木齐铁路局勘测设计院同时划归铁一院，更名为铁一院乌鲁木齐勘测设计院。<br />
+        </div>
+      </li>
+      <li>
+        <a href="javascript:void(0)">2005</a>
+        <div style="width:350px;text-align:left">
+<img src="{$CssDir/}images/his2005.jpg" width="200" height="84" /><br /><br />2005年，铁一院新疆分院、铁一院乌鲁木齐勘测设计院合并重组，成立新疆铁道勘察设计院，以原乌鲁木齐勘测设计院拥有的甲级资质开展市场竞争。<br />
+        </div>
+      </li>
+      <li>
+        <a href="javascript:void(0)">2006</a>
+        <div style="width:350px;text-align:left">
+<img src="{$CssDir/}images/his2006.jpg" width="200" height="84" /><br />2006年，企业通过改制，成立有限公司，实现了历史性转折。<br />
+        </div>
+      </li>
+    </ul>
+<!--MegaMenu Ends-->
+</div></div>
+    <div class="clearfix"></div>  
+      </div>
+    </div>
+  </div>
+  
+  
+ 
+</div>
+
+
+</div>
+</div>
+<!--主体结束 -->
+ 
+ 
+
+
+{ZL.Label id="全站底部"/}
+
+ <script>
+ if(document.body.clientWidth >1100){
+ var h=$(".rowh").height();
+  $(".yell").css("height",h+"px")
+  }
+ </script>
+
+</body>
+</html>
+ 

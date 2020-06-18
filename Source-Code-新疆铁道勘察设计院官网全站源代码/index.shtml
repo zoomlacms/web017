@@ -1,0 +1,436 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>欢迎访问新疆铁道勘察设计院有限公司_首页</title>
+<meta name="Keywords" content="新疆铁道勘察,新疆铁道勘察设计院,铁道设计院">
+<meta name="Description" content="新疆铁道勘察设计院有限公司官网">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--[if lt IE 9]>
+	<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+	<script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+<![endif]-->
+<script src="http://code.zoomla.cn/jquery/jquery-1.10.2.min.js"></script>
+<script src="/dist/js/bootstrap.min.js"></script>
+<link href="/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="/Template/Railroad/style/global.css" rel="stylesheet" type="text/css">
+<SCRIPT type=text/javascript src="/Template/Railroad/style/js/nav.js"></SCRIPT>
+<script src="/Template/Railroad/style/js/jquery.easing.js"></script>
+<script src="/Template/Railroad/style/js/main.js"></script>
+</head>
+<body>
+<div id="header">
+<div  class="container">
+<div class="row">
+<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12"><a href="/"><img src="/Template/Railroad/style/Images/logo.png" class="img-responsive" alt="新疆铁道勘察设计院有限公司" /></a></div>
+<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 head_r">
+<span><A class=Channel href="javascript:void(0)" name="StranLink" id="StranLink">繁体中文</A> <SCRIPT language=javascript src="/js/gb_big5.js"></SCRIPT><a href='#' onclick="javascript:window.open('http://www.xjrsd.com.cn','_blank','left=280,top=250,width=439,height=282,scrollbars=yes')">设为首页</a>
+<a href="http://www.xjrsd.com.cn" onclick="this.style.behavior='url(#default#homepage)';this.setHomePage(document.location.href);">加入收藏</a></span>
+<div class="search">
+<form action="/search/SearchList.aspx" method="get">
+<input type="text" name="keyword" class="key" value="" placeholder="请输入关键字">
+<input type="submit" class="sea" value="">
+</form>
+</div>
+</div>
+<div class="clearfix"></div>
+</div>
+</div></div>
+
+
+<nav class="navbar" role="navigation" >
+<div  id="scolls">
+<div class="container">
+<div class="row">
+   <div class="container-fluid">
+       <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/">新疆铁道勘察设计院有限公司</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+   <div class="nav">
+      <ul class="nav navbar-nav">
+        <li class="munes00 "><a href="/">首页</a></li>
+        <li><a href="/Class_1/Default.aspx" >企业概况</a>
+ <ul>
+ 
+<li class="Gid6"><a href="/Item/6.aspx" title="企业介绍" target="_self" style="">企业介绍</a></li>
+
+<li class="Gid5"><a href="/Item/5.aspx" title="院领导致辞" target="_self" style="">院领导致辞</a></li>
+
+<li class="Gid4"><a href="/Item/4.aspx" title="组织机构" target="_self" style="">组织机构</a></li>
+
+<li class="Gid3"><a href="/Item/3.aspx" title="发展历程" target="_self" style="">发展历程</a></li>
+
+<li class="Gid1"><a href="/Item/1.aspx" title="资质荣誉" target="_self" style="">资质荣誉</a></li>
+
+<li class="Gid64"><a href="/Item/64.aspx" title="领导关怀" target="_self" style="">领导关怀</a></li>
+ 
+ </ul>
+         </li>
+        <li>
+      <a href="/Class_2/Default.aspx">新闻中心</a>
+  <ul>
+  
+<li Class="Node12"><a href="/Class_12/Default.aspx" target="_self">重要新闻</a></li>
+
+<li Class="Node9"><a href="/Class_9/Default.aspx" target="_self">院内新闻</a></li>
+
+  </ul>
+        </li>
+        <li>
+        <a href="/Class_5/Default.aspx" >企业风采</a>
+ <ul>
+  
+<li Class="Node20"><a href="/Class_20/Default.aspx" target="0">党群工作</a></li>
+
+<li Class="Node19"><a href="/Class_19/Default.aspx" target="0">企业文化</a></li>
+
+<li Class="Node18"><a href="/Class_18/Default.aspx" target="_self">精神文明</a></li>
+
+<li Class="Node17"><a href="/Class_17/Default.aspx" target="_self">七彩生活</a></li>
+
+ </ul> </li>
+        <li>
+        <a href="/Class_6/Default.aspx" >业务结构</a>
+ <ul>
+  
+<li Class="Node38"><a href="/Class_38/Default.aspx" target="0">房屋建筑</a></li>
+
+<li Class="Node35"><a href="/Class_35/Default.aspx" target="_self">工程设计</a></li>
+
+<li Class="Node24"><a href="/Class_24/Default.aspx" target="_self">工程勘察</a></li>
+
+<li Class="Node23"><a href="/Class_23/Default.aspx" target="_self">工程总承包</a></li>
+
+<li Class="Node22"><a href="/Class_22/Default.aspx" target="_self">工程咨询</a></li>
+
+<li Class="Node31"><a href="/Class_31/Default.aspx" target="_self">多元化</a></li>
+
+ </ul>
+    </li>
+        <li>
+      <a href="/Class_25/Default.aspx">人力资源</a>
+ <ul>
+  
+<li Class="Node28"><a href="/Class_28/Default.aspx" target="_self">教育培训</a></li>
+
+<li Class="Node26"><a href="/Class_26/Default.aspx" target="_self">招贤纳才</a></li>
+
+<li Class="Node29"><a href="/Class_29/Default.aspx" target="_self">人才理念</a></li>
+
+   </ul>
+        </li>
+        <li>
+        <a href="/Class_3/Default.aspx">优秀项目</a>
+ <ul>
+  
+<li Class="Node16"><a href="/Class_16/Default.aspx" target="_self">线网规划</a></li>
+
+<li Class="Node15"><a href="/Class_15/Default.aspx" target="_self">铁道勘察</a></li>
+
+<li Class="Node14"><a href="/Class_14/Default.aspx" target="_self">EPC总承包</a></li>
+
+<li Class="Node13"><a href="/Class_13/Default.aspx" target="_self">房屋建筑</a></li>
+
+<li Class="Node32"><a href="/Class_32/Default.aspx" target="_self">城市轨道交通</a></li>
+
+<li Class="Node33"><a href="/Class_33/Default.aspx" target="_self">公路</a></li>
+
+ </ul>
+   </li>
+         <li><a href="/Class_8/Default.aspx">联系我们</a></li>
+      </ul>
+    </div>
+    
+ 
+  </div><!-- /.container-fluid -->
+  </div>
+  </div>
+    </div>
+</nav>
+
+<div id=dixia class=aa></div>
+
+
+
+<div class="banners">
+
+<div class="main_view">
+  <div id="main_view" viewHeight="510">
+    <ul>
+      <li links="#" data-preview="/Template/Railroad/style/images/banner.jpg">
+        <div id="main_view_bei" class="main_view_1"></div>
+      </li>
+      <li links='#' data-preview="/Template/Railroad/style/images/banner1.jpg">
+        <div id="main_view_bei" class="main_view_2"></div>
+      </li>
+      <li links="#" data-preview="/Template/Railroad/style/images/banner2.jpg">
+        <div id="main_view_bei" class="main_view_3"></div>
+      </li>
+      <li links='#' data-preview="/Template/Railroad/style/images/banner3.jpg">
+        <div id="main_view_bei" class="main_view_4"></div>
+      </li>
+    </ul>
+    <div class="controlerul_container">
+      <div id="controlerul_container">
+        <div class="controlerul"> </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+ 
+</div>
+</div>
+ 
+<div  class="container">
+<div class="row">
+<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+<div class="about">
+<div class="about_tit">
+<strong>设计院简介</strong>
+</div>
+<div class="about_sym">
+
+<a href="/Item/6.aspx">
+<img src="/UploadFiles/zjxjksy/jpg/2014/8/201408061213170912.jpg" alt="企业介绍"  class="img-responsive"/></a>
+         新疆铁道勘察设计院——新疆铁路建设的开路先锋。回首新疆铁路的建设史，每一页都印下了他们清晰的... <a href="/Item/6.aspx">详细</a>
+
+
+</div>
+<div class="clearfix"></div>
+</div>
+
+</div>
+<div class="col-lg-5 col-md-5 col-sm-5 col-xs-12 Margintop10 padding5 Ptop0">
+
+<div class="news">
+<div class="about_tit">
+<strong>新闻中心</strong>
+ </div>
+<ul class="nav nav-pills border margintop20" role="tablist">
+  <li class="active"><a href="#home" role="tab" data-toggle="tab">院内新闻</a></li>
+  <li><a href="#settings" role="tab" data-toggle="tab">重要新闻</a></li>
+</ul>
+ <!-- Tab panes -->
+<div class="tab-content">
+<div class="tab-pane active" id="home"> 
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding5 Ptop0">
+<ul> 
+
+<li><span>2014-08-12</span><a href="/Item/140.aspx" title="院召开党的群众路线教育实践活动专题民主生活会" target="_self" style="">院召开党的群众路线教育实践活动专题民主生活会</a></li>
+
+<li><span>2014-08-12</span><a href="/Item/139.aspx" title="院与独山子石化公司成功签署两项EPC合同" target="_self" style="">院与独山子石化公司成功签署两项EPC合同</a></li>
+
+<li><span>2014-08-12</span><a href="/Item/138.aspx" title="自治区政协副主席李湘林一行赴哈额铁路调研慰问" target="_self" style="">自治区政协副主席李湘林一行赴哈额铁路调研慰问</a></li>
+
+<li><span>2014-08-12</span><a href="/Item/137.aspx" title="新建哈密至额济纳铁路项目如期开建" target="_self" style="">新建哈密至额济纳铁路项目如期开建</a></li>
+
+<li><span>2014-08-12</span><a href="/Item/136.aspx" title="院四项铁路勘察设计工程获奖" target="_self" style="">院四项铁路勘察设计工程获奖</a></li>
+
+<li><span>2014-08-12</span><a href="/Item/135.aspx" title="新建红柳河至淖毛湖铁路项目铺轨顺利合龙" target="_self" style="">新建红柳河至淖毛湖铁路项目铺轨顺利合龙</a></li>
+
+</ul></div>
+</div>
+   
+<div class="tab-pane" id="settings"> 
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding5 Ptop0">
+ <ul> 
+ 
+<li><span>2014-08-08</span><a href="/Item/101.aspx" title="铁一院设计的兰新铁路第二双线全线铺轨贯通" target="_self" style="">铁一院设计的兰新铁路第二双线全线铺轨贯通</a></li>
+
+<li><span>2014-08-08</span><a href="/Item/100.aspx" title="铁一院设计的拉萨至日喀则铁路开通试运营" target="_self" style="">铁一院设计的拉萨至日喀则铁路开通试运营</a></li>
+
+<li><span>2014-08-08</span><a href="/Item/99.aspx" title="争分夺秒 救灾专列在行动" target="_self" style="">争分夺秒 救灾专列在行动</a></li>
+
+ </ul></div>
+  </div>
+</div>
+ <div class="clearfix"></div>
+</div>
+
+
+</div>
+<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 Margintop10">
+<div class="pro">
+<div class="about_tit">
+<span><a href="/Class_2/Default.aspx">More+</a></span><strong>图片新闻</strong>
+ </div>
+<div class="pro_an margintop20">
+<div id="carousel-example-generic1" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic1" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic1" data-slide-to="1"></li>
+    <li data-target="#carousel-example-generic1" data-slide-to="2"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+ 
+    <div class="item active">
+  <a href="/Item/140.aspx" Title="院召开党的群众路线教育实践活动专题民主生活会"> 
+ <img src="/UploadFiles/xyxw/jpg/2014/8/201408121255388969.jpg" alt="院召开党的群众路线教育实践活动专题民主生活会"></a>
+     </div>
+
+    <div class="item">
+  <a href="/Item/138.aspx" Title="自治区政协副主席李湘林一行赴哈额铁路调研慰问"> 
+ <img src="/UploadFiles/xyxw/jpg/2014/8/201408121254101506.jpg" alt="自治区政协副主席李湘林一行赴哈额铁路调研慰问"></a>
+     </div>
+
+    <div class="item">
+  <a href="/Item/129.aspx" Title="院班子成员深入生产会战一线走访调研"> 
+ <img src="/UploadFiles/xyxw/jpg/2014/8/201408121247539305.jpg" alt="院班子成员深入生产会战一线走访调研"></a>
+     </div>
+
+   </div>
+
+  <!-- Controls -->
+  <a class="left carousel-control" href="#carousel-example-generic1" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#carousel-example-generic1" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+</div>
+</div>
+
+</div>
+</div>
+<div class="clearfix"></div>
+ </div>
+ 
+ <div  class="container anli">
+ <div class="row">
+ <div class="anli_tit"><span><a href="/Class_3/Default.aspx">更多</a></span>
+ <strong>优秀项目</strong>
+ </div>
+  <div  class="scrollbox" >
+<ul id="gun">
+
+<li>
+<a href="/Item/94.aspx" target="_self"><img src="/UploadFiles/kjdt/jpg/2014/8/201408081323266590.jpg" alt="新疆维吾尔自治区九地州地区规划"  class="img-responsive"/></a>
+<a href="/Item/94.aspx" title="新疆维吾尔自治区九地州地区规划" target="_self" style="">新疆维吾尔自治区九地州地区规划</a></li>
+
+<li>
+<a href="/Item/93.aspx" target="_self"><img src="/UploadFiles/xzjl/jpg/2014/8/201408081317597845.jpg" alt="国投罗钾罗中铁路专用线项目"  class="img-responsive"/></a>
+<a href="/Item/93.aspx" title="国投罗钾罗中铁路专用线项目" target="_self" style="">国投罗钾罗中铁路专用线项目</a></li>
+
+<li>
+<a href="/Item/92.aspx" target="_self"><img src="/UploadFiles/xzjl/jpg/2014/8/201408081315306998.jpg" alt="新建特种油外运雅克拉铁路专用线项目"  class="img-responsive"/></a>
+<a href="/Item/92.aspx" title="新建特种油外运雅克拉铁路专用线项目" target="_self" style="">新建特种油外运雅克拉铁路专用线</a></li>
+
+<li>
+<a href="/Item/91.aspx" target="_self"><img src="/UploadFiles/xxhjs/jpg/2014/8/201408081307475587.jpg" alt="乌鲁木齐站房"  class="img-responsive"/></a>
+<a href="/Item/91.aspx" title="乌鲁木齐站房" target="_self" style="">乌鲁木齐站房</a></li>
+
+<li>
+<a href="/Item/90.aspx" target="_self"><img src="/UploadFiles/xxhjs/jpg/2014/8/201408081301046650.jpg" alt="伊宁站房"  class="img-responsive"/></a>
+<a href="/Item/90.aspx" title="伊宁站房" target="_self" style="">伊宁站房</a></li>
+
+<li>
+<a href="/Item/37.aspx" target="_self"><img src="/UploadFiles/xxhjs/jpg/2014/8/201408081256287706.jpg" alt="克拉玛依站房项目"  class="img-responsive"/></a>
+<a href="/Item/37.aspx" title="克拉玛依站房项目" target="_self" style="">克拉玛依站房项目</a></li>
+
+<li>
+<a href="/Item/36.aspx" target="_self"><img src="/UploadFiles/xzjl/jpg/2014/8/201408061315247227.jpg" alt="克拉玛依石化EPC项目"  class="img-responsive"/></a>
+<a href="/Item/36.aspx" title="克拉玛依石化EPC项目" target="_self" style="">克拉玛依石化EPC项目</a></li>
+
+<li>
+<a href="/Item/35.aspx" target="_self"><img src="/UploadFiles/kycgs/jpg/2014/8/201408061309394553.jpg" alt="哈罗铁路"  class="img-responsive"/></a>
+<a href="/Item/35.aspx" title="哈罗铁路" target="_self" style="">哈罗铁路</a></li>
+
+<li>
+<a href="/Item/10.aspx" target="_self"><img src="/UploadFiles/Image/20140724/6354181953977675423344776.jpg" alt="青藏铁路那曲至桑利段勘察"  class="img-responsive"/></a>
+<a href="/Item/10.aspx" title="青藏铁路那曲至桑利段勘察" target="_self" style="">青藏铁路那曲至桑利段勘察</a></li>
+
+<li>
+<a href="/Item/11.aspx" target="_self"><img src="/UploadFiles/Image/20140724/6354181961628948052806496.jpg" alt="青藏铁路"  class="img-responsive"/></a>
+<a href="/Item/11.aspx" title="青藏铁路" target="_self" style="">青藏铁路</a></li>
+ </ul>	
+</div>
+</div>
+</div>
+ 
+ 
+ <div class="bot_bg">
+ <div  class="container b_bgs">
+ <div class="row">
+<div class="b_bg_p"><span><a href="/Plugins/Vote.aspx?SID=1" class="btn btn-warning">立即访问</a></span><p>网站投票</p> </div>
+</div>
+ </div>
+</div>
+  
+  <div  class="container">
+     <div  class="row">
+       <div class="bottom_nav"><a href="/Class_1/Default.aspx ">关于我们</a>
+<a href="/Class_1/NodePage.aspx">网站地图</a><a href="/Class_25/Default.aspx">招贤纳士</a> <a href="/Class_30/Default.aspx">友情链接</a> <a href="/Class_8/Default.aspx ">联系我们</a>
+     </div>
+       </div>
+   </div>
+   
+<div  class="container">
+<div  class="row">
+<div class="copyright"> 
+       客服热线：0991-3838877/0991-7956021      邮编：830011 <br>
+Copyright &copy; 2014 中铁一院集团新疆铁道勘察设计院. All Rights Reserved  <br>地址：新疆乌鲁木齐市新市区北京南路703号  <a href="http://www.miitbeian.gov.cn" target="_blank">疆ICP备88888888号</a>
+
+</div>
+</div>
+</div>
+ 
+ <script type="text/javascript" src="/Template/Railroad/style/js/jquery.rollGallery_yeso.js"></script>
+<script type="text/javascript">$(document).ready(function($){
+$("#gun").rollGallery({
+direction:"left",
+speed:50,
+showNum:9
+});
+});
+</script>
+
+ 
+<script>
+//检测固顶事件
+var IO=document.getElementById('scolls'),Y=IO,H=0,IE6;
+IE6=window.ActiveXObject&&!window.XMLHttpRequest;
+while(Y){H+=Y.offsetTop;Y=Y.offsetParent};
+if(IE6)
+    IO.style.cssText="position:absolute;top:expression(this.fix?(document"+
+        ".documentElement.scrollTop-(this.javascript||"+H+")):0)";
+window.onscroll=function (){
+    var d=document,s=Math.max(d.documentElement.scrollTop,document.body.scrollTop);
+     if(s>H&&IO.fix||s<=H&&!IO.fix)return;
+    if(!IE6)IO.style.position=IO.fix?"":"fixed";        
+    IO.fix=!IO.fix;
+};
+try{document.execCommand("BackgroundImageCache",false,true)}catch(e){};
+ //]]>
+
+//兼容wp8
+if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
+  var msViewportStyle = document.createElement("style");
+  msViewportStyle.appendChild(
+    document.createTextNode(
+      "@-ms-viewport{width:auto!important}"
+    )
+  );
+  document.getElementsByTagName("head")[0].
+    appendChild(msViewportStyle);
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,77 @@
+{ZL.Source id="节点栏目信息数据源"/}
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>{SField sid="节点栏目信息数据源" FD="NodeName" page="0"/}_{$SiteName/}</title>
+<meta name="Keywords" content="{SField sid="节点栏目信息数据源" FD="Meta_Keywords" page="0"/}" />
+<meta name="description" content="{SField sid="节点栏目信息数据源" FD="Meta_Description" page="0"/}" />
+{ZL:Boot()/}
+<link href="{$CssDir/}global.css" rel="stylesheet" type="text/css" />
+ <LINK rel=stylesheet type=text/css href="{$CssDir/}css.css" media=all>
+<SCRIPT type=text/javascript src="{$CssDir/}js/banner.js"></SCRIPT>
+<SCRIPT type=text/javascript src="{$CssDir/}js/jquery.tooltip.pack.js"></SCRIPT>
+<SCRIPT type=text/javascript src="{$CssDir/}js/player.js"></SCRIPT>
+<SCRIPT type=text/javascript>
+$(document).ready(function() {
+  slideshow_data["1"] = new views_slideshow_data(10, 5000, 1, true, "slow", 0.25);
+  views_slideshow_timer("1", true);
+  $("#views_slideshow_main_1").hover(
+    function() {
+      views_slideshow_pause("1");
+    },
+    function() {
+      views_slideshow_resume("1");
+    });
+});
+</SCRIPT>
+</head>
+<BODY class="front" style="text-align:center">
+ <DIV id=wrapper>
+ <DIV id=introBoxes>
+<DIV id=introWelcome class=introPart>
+<p>1955年，作为新中国西部铁路的开拓者，铁一院哈乌总队由哈密向西挺进，拉开了兰新铁路新疆段的建设序幕——铁一院第一勘测设计总队诞生。</p>
+<a href="/default.aspx">
+<img src="{$CssDir/}images/banners.jpg" class="img-responsive" /></a></DIV>
+<DIV id=introAccessibility class=introPart>
+<p>1962年，乌鲁木齐铁路局成立，一支来自五湖四海的优秀学子组建了局设计事务所，开始了她的漫长发展历程。</p>
+<a href="/default.aspx"><img src="{$CssDir/}images/banners1.jpg" class="img-responsive" /></a></DIV>
+<DIV id=introPerformance class=introPart>
+<p>2001年，参加了举世闻名的青藏铁路安多至桑利段的勘察和设计，承担了兰新铁路六次大提速线路改造和天山隧道群的勘察设计。</p>
+<a href="/default.aspx"><img src="{$CssDir/}images/banners2.jpg"  class="img-responsive" /></a></DIV>
+<DIV id=introFeatured class=introPart>
+<p>2005年5月19日，铁一院新疆分院、铁一院乌鲁木齐勘测设计院合并重组，成立新疆铁道勘察设计院。</p>
+
+<a href="/default.aspx"><img src="{$CssDir/}images/banners3.jpg"  class="img-responsive" /></a></DIV>
+<DIV id=introCommunity class=introPart>
+<p>2006年8月，企业通过改制，成立有限公司，实现了历史性转折。在全国罕见的铁路生产大会战中，承担了内蒙古临策铁路、兰新铁路嘉峪关至阿拉山口段电气化改造、喀和铁路、兰新铁路第二双线、哈罗铁路、额哈铁路、北富准铁路、红淖铁路、等铁路干线的勘察设计。与此同时，企业在铁道部招标中屡获佳绩，专用线设计、EPC领域获得了大量市场份额，技术创新能力和生产能力全面提升，为新疆经济社会发展做出了新贡献。</p>
+
+<a href="/default.aspx" ><img src="{$CssDir/}images/banners4.jpg" class="img-responsive" /></a></DIV>
+</DIV><!--introBoxes-->
+<DIV id=introNav>
+<div class="i_bg"></div>
+<UL id=playback>
+  <LI class=prev><A href="#">Previous</A></LI>
+  <LI class=play><A href="#">Play</A> </LI>
+  <LI class=pause><A href="#">Pause</A></LI>
+  <LI class=next><A href="#">Next</A> </LI>
+ </UL>
+<DIV id=timeline><DIV class=inside></DIV></DIV>
+<UL class=nav>
+  <LI class="p1 active"><A href="#">1955
+  <SPAN class="point p1"></SPAN></A></LI>
+  <LI class=p2><A href="#">1962 <SPAN 
+  class="point p2"></SPAN></A></LI>
+  <LI class=p3><A href="#">2001 <SPAN 
+  class="point p3"></SPAN></A></LI>
+  <LI class=p4><A href="#">2005 <SPAN 
+  class="point p4"></SPAN></A></LI>
+  <LI class=p5><A href="#">2006 <SPAN 
+  class="point p5"></SPAN></A></LI>
+</UL>
+</DIV><!--introNav-->
+ </DIV><!--wrapper-->
+  
+
+</body>
+</html>

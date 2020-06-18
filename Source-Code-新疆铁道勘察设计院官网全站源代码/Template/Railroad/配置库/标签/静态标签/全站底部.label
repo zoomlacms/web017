@@ -1,0 +1,80 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Table>
+    <LabelID>698</LabelID>
+    <LabelName>全站底部</LabelName>
+    <LabelType>1</LabelType>
+    <LabelCate>静态标签</LabelCate>
+    <LabelDesc />
+    <LabelParam />
+    <LabelTable />
+    <LabelField />
+    <LabelWhere />
+    <LabelOrder />
+    <LabelContent>  &lt;div  class="container"&gt;
+     &lt;div  class="row"&gt;
+       &lt;div class="bottom_nav"&gt;&lt;a href="{ZL:GetNodeLinkUrl(1)/} "&gt;关于我们&lt;/a&gt;
+&lt;a href="{ZL:GetNodeListUrl(1)/}"&gt;网站地图&lt;/a&gt;&lt;a href="{ZL:GetNodeLinkUrl(25)/}"&gt;招贤纳士&lt;/a&gt; &lt;a href="{ZL:GetNodeLinkUrl(30)/}"&gt;友情链接&lt;/a&gt; &lt;a href="{ZL:GetNodeLinkUrl(8)/} "&gt;联系我们&lt;/a&gt;
+     &lt;/div&gt;
+       &lt;/div&gt;
+   &lt;/div&gt;
+   
+&lt;div  class="container"&gt;
+&lt;div  class="row"&gt;
+&lt;div class="copyright"&gt; 
+{$Copyright/}
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;script&gt;
+//检测固顶事件
+var IO=document.getElementById('scolls'),Y=IO,H=0,IE6;
+IE6=window.ActiveXObject&amp;&amp;!window.XMLHttpRequest;
+while(Y){H+=Y.offsetTop;Y=Y.offsetParent};
+if(IE6)
+    IO.style.cssText="position:absolute;top:expression(this.fix?(document"+
+        ".documentElement.scrollTop-(this.javascript||"+H+")):0)";
+window.onscroll=function (){
+    var d=document,s=Math.max(d.documentElement.scrollTop,document.body.scrollTop);
+     if(s&gt;H&amp;&amp;IO.fix||s&lt;=H&amp;&amp;!IO.fix)return;
+    if(!IE6)IO.style.position=IO.fix?"":"fixed";        
+    IO.fix=!IO.fix;
+};
+try{document.execCommand("BackgroundImageCache",false,true)}catch(e){};
+ //]]&gt;
+
+//兼容wp8
+if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
+  var msViewportStyle = document.createElement("style");
+  msViewportStyle.appendChild(
+    document.createTextNode(
+      "@-ms-viewport{width:auto!important}"
+    )
+  );
+  document.getElementsByTagName("head")[0].
+    appendChild(msViewportStyle);
+}
+
+
+//	$(function () {
+//		$("#tabs1 a").mouseover(function (e) {
+//			$(this).tab('show');
+//		});
+//	   
+//	});
+ &lt;/script&gt;</LabelContent>
+    <LabelCount />
+    <LabelAddUser>0</LabelAddUser>
+    <LabelNodeID>0</LabelNodeID>
+    <Modeltypeinfo>计数判断</Modeltypeinfo>
+    <addroot>循环计算</addroot>
+    <setroot>等于</setroot>
+    <Modelvalue>0</Modelvalue>
+    <Valueroot />
+    <IsOpen>0</IsOpen>
+    <FalseContent />
+    <DataSourceType />
+    <ConnectString />
+  </Table>
+</NewDataSet>

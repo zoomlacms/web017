@@ -1,0 +1,171 @@
+﻿{ZL.Source id="节点栏目信息数据源"/}
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>{SField sid="节点栏目信息数据源" FD="NodeName" page="0"/}_{$SiteName/}</title>
+<meta name="Keywords" content="{SField sid="节点栏目信息数据源" FD="Meta_Keywords" page="0"/}" />
+<meta name="description" content="{SField sid="节点栏目信息数据源" FD="Meta_Description" page="0"/}" />
+{ZL:Boot()/}
+<link href="{$CssDir/}global.css" rel="stylesheet" type="text/css" />
+<link href="{$CssDir/}fix.css" rel="stylesheet" type="text/css" />
+<script src="/js/scrolltopcontrol.js" type="text/javascript"></script>
+<script src="{$CssDir/}js/main.js"></script>
+<style>.nav_lists  .Node{SField sid="节点栏目信息数据源" FD="NodeID" page="0"/} a{ color:#000}
+.navbar-nav>li.munes{SField sid="节点栏目信息数据源" FD="NodeID" page="0"/}>a,.navbar-nav>li.munes{SField sid="节点栏目信息数据源" FD="ParentID" page="0"/}>a{color:#fff; }
+
+
+.second_navi{text-align:right;}
+.second_navi a{display:inline-block; font-size:14px; margin-left:34px;}
+.imagedesc_570,.imagedesc_370,.imagedesc_350,.imagedesc_400,.imagedesc_220,.imagedesc_300{display:block; width:570px; overflow:hidden; position:relative;}
+.imagedesc_350{width:350px;}
+.imagedesc_370{width:370px; float:left;}
+.imagedesc_400{width:400px;}
+.imagedesc_220{width:220px;}
+.imagedesc_300{width:300px;}
+.imagedesc_570 .core_item img,.imagedesc_370 .core_item img,.imagedesc_400 .core_item img,.imagedesc_350 .core_item img,.imagedesc_220 .core_item img,.imagedesc_300 .core_item img{display:block; margin:0;}
+.imagedesc_570 .core_desc,.imagedesc_370 .core_desc,.imagedesc_400 .core_desc,.imagedesc_350 .core_desc,.imagedesc_220 .core_desc,.imagedesc_300 .core_desc{position:absolute; bottom:0px; left:0px; width:100%;}
+.imagedesc_570 .core_bg,.imagedesc_370 .core_bg,.imagedesc_400 .core_bg,.imagedesc_350 .core_bg,.imagedesc_220 .core_bg,.imagedesc_300 .core_bg{position:absolute; left:0px; top:0px; width:100%; height:100%; background:#000;filter:alpha(opacity=50); -moz-opacity:0.50;-khtml-opacity: 0.50;opacity: 0.50;}
+.imagedesc_570 .core_text,.imagedesc_370 .core_text,.imagedesc_350 .core_text,.imagedesc_400 .core_text,.imagedesc_220 .core_text,.imagedesc_300 .core_text{position:relative; overflow:hidden; padding:10px 25px; width:520px; line-height:26px; color:#fff;}
+.imagedesc_350 .core_text{padding:10px 15px; width:320px;}
+.imagedesc_370 .core_text{padding:10px 15px; width:340px;}
+.imagedesc_400 .core_text{padding:10px 15px; width:370px;}
+.imagedesc_220 .core_text{padding:10px 15px; width:190px;}
+.imagedesc_300 .core_text{padding:10px 15px; width:270px;}
+
+
+</style>
+</head>
+<body >
+<div id="home_all"> 
+{ZL.Label id="全站头部"/} 
+<div class="container">
+<div class="row">
+<div class="col-lg-12 col-md-12 col-xs-12 padding0">
+<img src="{ZL.Label id="输出指定节点栏目图片" NodeID="{SField sid="节点栏目信息数据源" FD="NodeID" page="0"/}" /}" class="img-responsive" alt="" />
+</div>
+</div> 
+</div>
+<div class="container myAnnoun">
+<div class="row">
+
+<div class="col-lg-3 col-md-3 col-xs-12 myContent_rbox padding0">
+<div class="margins">
+<div class="nav_lists Nod{SField sid="节点栏目信息数据源" FD="ParentID" page="0"/}">
+<ul>
+<li class="titles"><strong> {ZL.Label id="输出指定ID节点名" NodeID="{SField sid="节点栏目信息数据源" FD="NodeID" page="0"/}" /}</strong></li>
+  {ZL.Label id="节点列表" ParentID="{SField sid="节点栏目信息数据源" FD="NodeID" page="0"/}" ShowNum="10" /}
+</ul>    
+</div>
+</div>
+</div> 
+
+<div class="col-lg-9 col-md-12 col-xs-12 padding5 rowh">
+
+<div class="panel panel-default">
+<div class="panel-heading ptb0">
+<ul class="breadcrumb">
+<li><a href="/">首页</a><span class="divider"></span></li>
+<li>{SField sid="节点栏目信息数据源" FD="NodeName" page="0"/}</li>
+<li>详情</li>
+</ul>   
+     </div>
+    <div  class="panel-collapse">
+      <div class="panel-body nav_Pic minheight500">
+
+
+
+<div class="baselayout">
+  <div class="w370 overflow left">
+    <div class="imagedesc_370"> <a href='{ZL:GetNodeLinkUrl(23)/}'><img src="{$CssDir/}images/ywjg003.jpg" width="370" height="270"/></a>
+      <div class="core_desc">
+        <div class="core_bg"></div>
+        <div class="core_text f12 yahei"> <span class="f16"> 工程总承包 </span>
+          <div class="hide lh24" data-role="j_hover_show"> 13个煤炭企业，76矿81井，2012年全集团自产商品煤量超过4亿吨，煤炭销售量突破6亿吨，连续七年成为全球最大的煤炭经销商
+            <p class="text_right"><a href='/cs/sh/PAGE1382682123587/ED.html' class="more f12">了解更多</a></p>
+          </div>
+        </div>
+        <a href="#" class="add">add</a> </div>
+    </div>
+  </div>
+  <div class="w370 overflow left ml30">
+    <div class="imagedesc_370"> <a href='{ZL:GetNodeLinkUrl(22)/}'><img src="{$CssDir/}images/ywjg004.jpg" width="370" height="270"/></a>
+      <div class="core_desc">
+        <div class="core_bg"></div>
+        <div class="core_text f12 yahei"> <span class="f16"> 工程咨询 </span>
+          <div class="hide lh24" data-role="j_hover_show"> 五大区域、八大基地、规模适度、资产优良 <br>
+            跨地区、跨电网、6323万千瓦电力总装机容量
+            <p class="text_right"><a href='/cs/sh/PAGE1382682123602/ED.html' class="more f12">了解更多</a></p>
+          </div>
+        </div>
+        <a href="#" class="add">add</a> </div>
+    </div>
+  </div>
+  <div class="w370 overflow right">
+    <div class="imagedesc_370"> <a href='{ZL:GetNodeLinkUrl(35)/}'><img src="{$CssDir/}images/ywjg002.jpg" width="370" height="270"/></a>
+      <div class="core_desc">
+        <div class="core_bg"></div>
+        <div class="core_text f12 yahei"> <span class="f16"> 工程设计 </span>
+          <div class="hide lh24" data-role="j_hover_show"> 9个骨干企业，铁路营业里程共计1765公里，拥有铁路货车35843辆，2012年完成货运量3.4亿吨
+            <p class="text_right"><a href='/cs/sh/PAGE1382682123617/ED.html' class="more f12">了解更多</a></p>
+          </div>
+        </div>
+        <a href="#" class="add">add</a> </div>
+    </div>
+  </div>
+</div>
+<div class="baselayout mt30">
+  <div class="w370 overflow left">
+    <div class="imagedesc_370"> <a href='{ZL:GetNodeLinkUrl(24)/}'><img src="{$CssDir/}images/ywjg005.jpg" width="370" height="270"/></a>
+      <div class="core_desc">
+        <div class="core_bg"></div>
+        <div class="core_text f12 yahei"> <span class="f16"> 工程勘察  </span>
+          <div class="hide lh24" data-role="j_hover_show"> 拥有黄骅港和神华天津煤炭码头两个自有出海口，2012年港口吞吐量实现1.359亿吨
+            <p class="text_right"><a href='/cs/sh/PAGE1382682123632/ED.html' class="more f12">了解更多</a></p>
+          </div>
+        </div>
+        <a href="#" class="add">add</a> </div>
+    </div>
+  </div>
+  <div class="w370 overflow left ml30">
+    <div class="imagedesc_370"> <a href='{ZL:GetNodeLinkUrl(38)/}'><img src="{$CssDir/}images/ywjg001.jpg" width="370" height="270"/></a>
+      <div class="core_desc">
+        <div class="core_bg"></div>
+        <div class="core_text f12 yahei"> <span class="f16"> 房屋建筑 </span>
+          <div class="hide lh24" data-role="j_hover_show"> 建成并运行了4个大型煤制油、煤化工项目，生产各类油品化工品1014.4万吨
+            <p class="text_right"><a href='/cs/sh/PAGE1382682123647/ED.html' class="more f12">了解更多</a></p>
+          </div>
+        </div>
+        <a href="#" class="add">add</a> </div>
+    </div>
+  </div>
+  <div class="w370 overflow right">
+    <div class="imagedesc_370"> <a href='{ZL:GetNodeLinkUrl(31)/}'><img src="{$CssDir/}images/ywjg006.jpg" width="370" height="270"/></a>
+      <div class="core_desc">
+        <div class="core_bg"></div>
+        <div class="core_text f12 yahei"> <span class="f16"> 多元化 </span>
+          <div class="hide lh24" data-role="j_hover_show"> 自有船舶11艘，总运力51.5万载重吨，已签订合同在建（含未建）船舶37条197.26万载重吨，2012年完成海运量达9773.8.万吨
+            <p class="text_right"><a href='/cs/sh/PAGE1382682123662/ED.html' class="more f12">了解更多</a></p>
+          </div>
+        </div>
+        <a href="#" class="add">add</a> </div>
+    </div>
+  </div>
+</div>
+
+        <div class="clearfix"></div>  
+</div>
+    </div>
+  </div>
+</div>
+</div>
+</div></div>
+{ZL.Label id="全站底部"/}
+<script>
+if(document.body.clientWidth >1100){
+var h=$(".rowh").height();
+$('.Nod{SField sid="节点栏目信息数据源" FD="ParentID" page="0"/}').css("height",h+"px")
+}
+</script>
+</body>
+</html>

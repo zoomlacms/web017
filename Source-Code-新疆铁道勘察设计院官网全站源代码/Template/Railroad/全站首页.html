@@ -1,0 +1,295 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>欢迎访问{$SiteName/}_首页</title>
+{$MetaKeywords/}
+{$MetaDescription/}
+{ZL:Boot()/}
+<link href="{$CssDir/}global.css" rel="stylesheet" type="text/css">
+<SCRIPT type=text/javascript src="{$CssDir/}js/nav.js"></SCRIPT>
+<script src="{$CssDir/}js/jquery.easing.js"></script>
+<script src="{$CssDir/}js/main.js"></script>
+</head>
+<body>
+<div id="header">
+<div  class="container">
+<div class="row">
+<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12"><a href="/"><img src="{$LogoUrl/}" class="img-responsive" alt="{$SiteName/}" /></a></div>
+<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 head_r">
+<span>{ZL:Big5()/}<a href='#' onclick="javascript:window.open('{$SiteURL/}','_blank','left=280,top=250,width=439,height=282,scrollbars=yes')">设为首页</a>
+<a href="{$SiteURL/}" onclick="this.style.behavior='url(#default#homepage)';this.setHomePage(document.location.href);">加入收藏</a></span>
+<div class="search">
+<form action="/search/SearchList.aspx" method="get">
+<input type="text" name="keyword" class="key" value="" placeholder="请输入关键字">
+<input type="submit" class="sea" value="">
+</form>
+</div>
+</div>
+<div class="clearfix"></div>
+</div>
+</div></div>
+
+
+<nav class="navbar" role="navigation" >
+<div  id="scolls">
+<div class="container">
+<div class="row">
+   <div class="container-fluid">
+       <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/">新疆铁道勘察设计院有限公司</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+   <div class="nav">
+      <ul class="nav navbar-nav">
+        <li class="munes00 "><a href="/">首页</a></li>
+        <li><a href="{ZL:GetNodeLinkUrl(1)/}" >企业概况</a>
+ <ul>
+ {ZL.Label id="输出指定节点标题_无时间属性" NodeID="1"  TitleNum="30" ShowNum="10" /} 
+ </ul>
+         </li>
+        <li>
+      <a href="{ZL:GetNodeLinkUrl(2)/}">新闻中心</a>
+  <ul>
+  {ZL.Label id="节点列表" ParentID="2" ShowNum="10" /}
+  </ul>
+        </li>
+        <li>
+        <a href="{ZL:GetNodeLinkUrl(5)/}" >企业风采</a>
+ <ul>
+  {ZL.Label id="节点列表" ParentID="5" ShowNum="10" /}
+ </ul> </li>
+        <li>
+        <a href="{ZL:GetNodeLinkUrl(6)/}" >业务结构</a>
+ <ul>
+  {ZL.Label id="节点列表" ParentID="6" ShowNum="10" /}
+ </ul>
+    </li>
+        <li>
+      <a href="{ZL:GetNodeLinkUrl(25)/}">人力资源</a>
+ <ul>
+  {ZL.Label id="节点列表" ParentID="25" ShowNum="10" /}
+   </ul>
+        </li>
+        <li>
+        <a href="{ZL:GetNodeLinkUrl(3)/}">优秀项目</a>
+ <ul>
+  {ZL.Label id="节点列表" ParentID="3" ShowNum="10" /}
+ </ul>
+   </li>
+         <li><a href="{ZL:GetNodeLinkUrl(8)/}">联系我们</a></li>
+      </ul>
+    </div>
+    
+ 
+  </div><!-- /.container-fluid -->
+  </div>
+  </div>
+    </div>
+</nav>
+
+<div id=dixia class=aa></div>
+
+
+
+<div class="banners">
+
+<div class="main_view">
+  <div id="main_view" viewHeight="510">
+    <ul>
+      <li links="#" data-preview="{$CssDir/}images/banner.jpg">
+        <div id="main_view_bei" class="main_view_1"></div>
+      </li>
+      <li links='#' data-preview="{$CssDir/}images/banner1.jpg">
+        <div id="main_view_bei" class="main_view_2"></div>
+      </li>
+      <li links="#" data-preview="{$CssDir/}images/banner2.jpg">
+        <div id="main_view_bei" class="main_view_3"></div>
+      </li>
+      <li links='#' data-preview="{$CssDir/}images/banner3.jpg">
+        <div id="main_view_bei" class="main_view_4"></div>
+      </li>
+    </ul>
+    <div class="controlerul_container">
+      <div id="controlerul_container">
+        <div class="controlerul"> </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+ 
+</div>
+</div>
+ 
+<div  class="container">
+<div class="row">
+<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+<div class="about">
+<div class="about_tit">
+<strong>设计院简介</strong>
+</div>
+<div class="about_sym">
+{ZL.Label id="输出制定节点文章缩略图带简介" NodeID="1" ShowNum="1" Sym="100" /}
+
+</div>
+<div class="clearfix"></div>
+</div>
+
+</div>
+<div class="col-lg-5 col-md-5 col-sm-5 col-xs-12 Margintop10 padding5 Ptop0">
+
+<div class="news">
+<div class="about_tit">
+<strong>新闻中心</strong>
+ </div>
+<ul class="nav nav-pills border margintop20" role="tablist">
+  <li class="active"><a href="#home" role="tab" data-toggle="tab">院内新闻</a></li>
+  <li><a href="#settings" role="tab" data-toggle="tab">重要新闻</a></li>
+</ul>
+ <!-- Tab panes -->
+<div class="tab-content">
+<div class="tab-pane active" id="home"> 
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding5 Ptop0">
+<ul> 
+{ZL.Label id="输出指定节点标题_带时间属性" NodeID="9" TitleNum="66" ShowNum="6" /}
+</ul></div>
+</div>
+   
+<div class="tab-pane" id="settings"> 
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding5 Ptop0">
+ <ul> 
+ {ZL.Label id="输出指定节点标题_带时间属性" NodeID="12" TitleNum="66" ShowNum="6" /}
+ </ul></div>
+  </div>
+</div>
+ <div class="clearfix"></div>
+</div>
+
+
+</div>
+<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 Margintop10">
+<div class="pro">
+<div class="about_tit">
+<span><a href="{ZL:GetNodeLinkUrl(2)/}">More+</a></span><strong>图片新闻</strong>
+ </div>
+<div class="pro_an margintop20">
+<div id="carousel-example-generic1" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic1" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic1" data-slide-to="1"></li>
+    <li data-target="#carousel-example-generic1" data-slide-to="2"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+ {ZL.Label id="文章缩略图列表_无标题列表" NodeID="2"   ShowNum="3" /}
+   </div>
+
+  <!-- Controls -->
+  <a class="left carousel-control" href="#carousel-example-generic1" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#carousel-example-generic1" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+</div>
+</div>
+
+</div>
+</div>
+<div class="clearfix"></div>
+ </div>
+ 
+ <div  class="container anli">
+ <div class="row">
+ <div class="anli_tit"><span><a href="{ZL:GetNodeLinkUrl(3)/}">更多</a></span>
+ <strong>优秀项目</strong>
+ </div>
+  <div  class="scrollbox" >
+<ul id="gun">
+{ZL.Label id="文章缩略图列表_带标题" NodeID="3" TitleNum="30" ShowNum="10" /} </ul>	
+</div>
+</div>
+</div>
+ 
+ 
+ <div class="bot_bg">
+ <div  class="container b_bgs">
+ <div class="row">
+<div class="b_bg_p"><span><a href="/Plugins/Vote.aspx?SID=1" class="btn btn-warning">立即访问</a></span><p>网站投票</p> </div>
+</div>
+ </div>
+</div>
+  
+  <div  class="container">
+     <div  class="row">
+       <div class="bottom_nav"><a href="{ZL:GetNodeLinkUrl(1)/} ">关于我们</a>
+<a href="{ZL:GetNodeListUrl(1)/}">网站地图</a><a href="{ZL:GetNodeLinkUrl(25)/}">招贤纳士</a> <a href="{ZL:GetNodeLinkUrl(30)/}">友情链接</a> <a href="{ZL:GetNodeLinkUrl(8)/} ">联系我们</a>
+     </div>
+       </div>
+   </div>
+   
+<div  class="container">
+<div  class="row">
+<div class="copyright"> 
+{$Copyright/}
+</div>
+</div>
+</div>
+ 
+ <script type="text/javascript" src="{$CssDir/}js/jquery.rollGallery_yeso.js"></script>
+<script type="text/javascript">$(document).ready(function($){
+$("#gun").rollGallery({
+direction:"left",
+speed:50,
+showNum:9
+});
+});
+</script>
+
+ 
+<script>
+//检测固顶事件
+var IO=document.getElementById('scolls'),Y=IO,H=0,IE6;
+IE6=window.ActiveXObject&&!window.XMLHttpRequest;
+while(Y){H+=Y.offsetTop;Y=Y.offsetParent};
+if(IE6)
+    IO.style.cssText="position:absolute;top:expression(this.fix?(document"+
+        ".documentElement.scrollTop-(this.javascript||"+H+")):0)";
+window.onscroll=function (){
+    var d=document,s=Math.max(d.documentElement.scrollTop,document.body.scrollTop);
+     if(s>H&&IO.fix||s<=H&&!IO.fix)return;
+    if(!IE6)IO.style.position=IO.fix?"":"fixed";        
+    IO.fix=!IO.fix;
+};
+try{document.execCommand("BackgroundImageCache",false,true)}catch(e){};
+ //]]>
+
+//兼容wp8
+if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
+  var msViewportStyle = document.createElement("style");
+  msViewportStyle.appendChild(
+    document.createTextNode(
+      "@-ms-viewport{width:auto!important}"
+    )
+  );
+  document.getElementsByTagName("head")[0].
+    appendChild(msViewportStyle);
+}
+</script>
+</body>
+</html>
